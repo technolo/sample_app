@@ -12,11 +12,11 @@ group :production do
 end
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails'
   gem 'webrat', '0.7.1'
 end
 
