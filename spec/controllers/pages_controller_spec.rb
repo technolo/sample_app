@@ -15,13 +15,13 @@ describe PagesController do
     end
   end
 
-  describe "GET 'contract'" do
+  describe "GET 'contact'" do
     it "should be successful" do
-      get 'contract'
+      get 'contact'
       response.should be_success
     end
     it "should have the right title" do
-      get 'contract'
+      get 'contact'
       response.should have_selector("title",
                                     :content => "Ruby on Rails Tutorial Sample App | Contact")
     end
